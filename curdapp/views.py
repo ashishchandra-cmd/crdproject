@@ -34,6 +34,8 @@ def update_view(request,id):
         pi=User.objects.get(pk=id)
         fr=UserForm(instance=pi)
     return render(request,'update.html',{'form':fr})
+def Student(request):
+    pass
 
 
 
